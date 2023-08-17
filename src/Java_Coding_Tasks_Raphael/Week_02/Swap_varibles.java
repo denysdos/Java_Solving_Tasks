@@ -16,8 +16,22 @@ public class Swap_varibles {
         System.out.println("a = " + a + "\nb = " + b);
     }
 
+    public static void main(String[] args) {
+
+        swap_var(1,2);
+
+
+
+    }
 
 }
 
 
 
+/*
+
+        a = a + b;
+
+        b = a - b;
+        a = a - b;
+ */
