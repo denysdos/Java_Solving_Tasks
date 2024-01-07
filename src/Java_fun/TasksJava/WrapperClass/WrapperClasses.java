@@ -1,4 +1,4 @@
-package Java_fun.InterViewPrep.WrapperClass;
+package Java_fun.TasksJava.WrapperClass;
 
 
 public class WrapperClasses {

@@ -1,4 +1,4 @@
-package Java_fun.InterViewPrep.CodingInterview;
+package Java_fun.TasksJava.CodingInterview;
 
 public class fanabicci {
 

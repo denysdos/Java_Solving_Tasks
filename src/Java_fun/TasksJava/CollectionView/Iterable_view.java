@@ -1,4 +1,4 @@
-package Java_fun.InterViewPrep.CollectionView;
+package Java_fun.TasksJava.CollectionView;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -2,19 +2,30 @@ package Random_Tasks;
 
 public class palindrome_or_not {
 
-    public static void main(String[] args) {
+    public static boolean isPalindrome(String str){
 
-        String str = "amalama";
+        str = str.toLowerCase().replaceAll("//s","");
 
-        boolean check = true;
+        int left = 0;
+        int right = str.length()-1;
 
-        String str3 = "";
 
-        for (int i = 0; i < str.length()/2; i++) {
+        while (left < right){
 
-            if (str.charAt(i) != str.charAt(str.length()-1-i));
+            if (str.charAt(left) != str.charAt(right)){
+                    return  false;
+            }
+
+            left ++;
+            right --;
 
         }
+
+        return true;
+    }
+
+    public static void main(String[] args) {
+
 
 
 

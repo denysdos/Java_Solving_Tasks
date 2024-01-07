@@ -1,4 +1,4 @@
-package Java_fun.InterViewPrep.String;
+package Java_fun.TasksJava.String;
 
 public class String_vs_StringBuffer_StringBuilder {
 
