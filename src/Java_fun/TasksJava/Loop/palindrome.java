@@ -18,7 +18,7 @@ public class palindrome {
 
         while (left < right) {
             if (str.charAt(left) != str.charAt(right)) {
-                return false; // Символы не совпадают, строка не является палиндромом
+                return false;
             }
 
             left++;
